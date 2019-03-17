@@ -1,0 +1,86 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/./Tests/ShortTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/./Tests/personalTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DAIterator.cpp
+stdexcept
+-
+DAIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DAIterator.h
+DynamicArray.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DynamicArray.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DAIterator.h
+DynamicArray.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DynamicArray.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DynamicArray.cpp
+exception
+-
+stdexcept
+-
+DynamicArray.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DynamicArray.h
+DAIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DAIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DynamicArray.h
+exception
+-
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/Tests/ExtendedTest.cpp
+ExtendedTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/Tests/ExtendedTest.h
+assert.h
+-
+../DAIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DAIterator.h
+../DynamicArray.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DynamicArray.h
+exception
+-
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/Tests/ExtendedTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/Tests/ShortTest.cpp
+ShortTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/Tests/ShortTest.h
+../DynamicArray.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DynamicArray.h
+../DAIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DAIterator.h
+assert.h
+-
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/Tests/ShortTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/Tests/personalTest.cpp
+assert.h
+-
+personalTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/Tests/personalTest.h
+../DynamicArray.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/DynamicArray.h
+iostream
+-
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/Tests/personalTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/main.cpp
+iostream
+-
+./Tests/ShortTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/./Tests/ShortTest.h
+./Tests/personalTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/./Tests/personalTest.h
+Tests/ExtendedTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment1/Tests/ExtendedTest.h
+

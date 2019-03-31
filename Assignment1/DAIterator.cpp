@@ -4,7 +4,6 @@
 
 #include <stdexcept>
 #include "DAIterator.h"
-#include "DynamicArray.h"
 
 DAIterator::DAIterator(const DynamicArray &c) : c(c)
 {

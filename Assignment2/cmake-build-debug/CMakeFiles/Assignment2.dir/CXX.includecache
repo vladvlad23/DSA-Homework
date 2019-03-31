@@ -1,0 +1,128 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/./LinkedList/LinkedListIterator.h
+TElemLinkedList.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/./LinkedList/TElemLinkedList.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/./LinkedList/TElemLinkedList.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/./Tests/ExtendedTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/./Tests/PersonalTests.h
+../LinkedList/TElemLinkedList.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/./LinkedList/TElemLinkedList.h
+../LinkedList/LinkedListIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/./LinkedList/LinkedListIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/./Tests/ShortTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/LinkedList/LinkedListIterator.cpp
+exception
+-
+stdexcept
+-
+LinkedListIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/LinkedList/LinkedListIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/LinkedList/LinkedListIterator.h
+TElemLinkedList.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/LinkedList/TElemLinkedList.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/LinkedList/TElemLinkedList.cpp
+stdexcept
+-
+TElemLinkedList.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/LinkedList/TElemLinkedList.h
+LinkedListIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/LinkedList/LinkedListIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/LinkedList/TElemLinkedList.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/SortedSet/SortedSet.cpp
+stdexcept
+-
+SortedSet.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/SortedSet/SortedSet.h
+SortedSetIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/SortedSet/SortedSetIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/SortedSet/SortedSet.h
+../LinkedList/TElemLinkedList.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/LinkedList/TElemLinkedList.h
+../LinkedList/LinkedListIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/LinkedList/LinkedListIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/SortedSet/SortedSetIterator.cpp
+stdexcept
+-
+SortedSetIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/SortedSet/SortedSetIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/SortedSet/SortedSetIterator.h
+SortedSet.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/SortedSet/SortedSet.h
+../LinkedList/LinkedListIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/LinkedList/LinkedListIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/Tests/ExtendedTest.cpp
+assert.h
+-
+exception
+-
+iostream
+-
+ExtendedTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/Tests/ExtendedTest.h
+ShortTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/Tests/ShortTest.h
+../SortedSet/SortedSet.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/SortedSet/SortedSet.h
+../SortedSet/SortedSetIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/SortedSet/SortedSetIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/Tests/ExtendedTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/Tests/PersonalTests.cpp
+cassert
+-
+exception
+-
+stdexcept
+-
+PersonalTests.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/Tests/PersonalTests.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/Tests/PersonalTests.h
+../LinkedList/TElemLinkedList.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/LinkedList/TElemLinkedList.h
+../LinkedList/LinkedListIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/LinkedList/LinkedListIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/Tests/ShortTest.cpp
+ShortTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/Tests/ShortTest.h
+../SortedSet/SortedSet.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/SortedSet/SortedSet.h
+../SortedSet/SortedSetIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/SortedSet/SortedSetIterator.h
+assert.h
+-
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/Tests/ShortTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/main.cpp
+iostream
+-
+./Tests/PersonalTests.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/./Tests/PersonalTests.h
+./Tests/ShortTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/./Tests/ShortTest.h
+./Tests/ExtendedTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment2/./Tests/ExtendedTest.h
+

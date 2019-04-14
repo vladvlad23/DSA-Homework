@@ -81,8 +81,9 @@ void testRemove() {
 	}
 	assert(m.size() == 0);
 	//printM(m);
-	for (int i = -100; i < 100; i = i + 2) { 
+	for (int i = -100; i < 100; i = i + 2) {
 		m.add(i);
+		assert(m.search(i));
 	}
 	for (int i = -100; i < 100; i++) { //delete everything (including inexistent elements)
 		if (i % 2 == 0) {
@@ -95,19 +96,20 @@ void testRemove() {
 	assert(m.size() == 0);
 	//printM(m);
 
-	for (int i = -100; i <= 100; i = i + 2) { 
-		m.add(i);
+	for (int i = -100; i <= 100; i = i + 2) {
+	    m.add(i);
 	}
 	//printM(m);
-	for (int i = 100; i > -100; i--) { //delete in descending order (reverse order compared to the adding)
-		if (i % 2 == 0) {
-			assert(m.remove(i) == true);
-		}
-		else {
-			assert(m.remove(i) == false);
-		}
-	}
+	for (int i = 100; i > -100; i--) {//delete in descending order (reverse order compared to the adding)
+        if (i % 2 == 0)
+        {
+            assert(m.remove(i) == true);
+        } else
+        {
+            assert(m.remove(i) == false);
+        }
 
+	}
 	assert(m.size() == 1);
 	//printM(m);
 
@@ -202,6 +204,8 @@ void testQuantity() {//add lots of elements
 			s.add(j);
 		}
 	}
+
+	std::cout<<"Addition in quantity is oki.\n";
 	assert(s.size() == 60000);
 	SetIterator it = s.iterator();
 	assert(it.valid() == true);
@@ -227,11 +231,15 @@ void testQuantity() {//add lots of elements
 // we don't know how the set is represented and in which order the elements are stored or printed, we can only test general thing
 void testAllExtended() {
 	testCreate();
+	std::cout<<"Test create is sucessfull\n";
 	testAdd();
+    std::cout<<"Test add is sucessfull\n";
 	testRemove();
+	std::cout<<"Test remove is sucessfull\n";
 	testIterator();
+	std::cout<<"Test iterator is sucessfull\n";
 	testQuantity();
-
+	std::cout<<"Addition in quantity is oki\n";
 }
 
 

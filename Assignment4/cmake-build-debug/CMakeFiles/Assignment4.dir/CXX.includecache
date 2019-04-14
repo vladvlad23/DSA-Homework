@@ -8,6 +8,10 @@
 
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/./DoubleLinkedListArray/DoubleLinkedListArray.h
 
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/./Tests/ExtendedTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/./Tests/ShortTest.h
+
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/./Tests/TestingClass.h
 ../DoubleLinkedListArray/DoubleLinkedListArray.h
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/./DoubleLinkedListArray/DoubleLinkedListArray.h
@@ -19,18 +23,36 @@ stdexcept
 -
 DoubleLinkedListArray.h
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArray.h
+DoubleLinkedListArrayIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArrayIterator.h
 
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArray.h
 
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp
+stdexcept
+-
+DoubleLinkedListArrayIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArrayIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArrayIterator.h
+DoubleLinkedListArray.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArray.h
+
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/Set.cpp
+stdexcept
+-
 Set.h
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/Set.h
 SetIterator.h
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/SetIterator.h
 
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/Set.h
+../DoubleLinkedListArray/DoubleLinkedListArray.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArray.h
 
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/SetIterator.cpp
+stdexcept
+-
 SetIterator.h
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/SetIterator.h
 Set.h
@@ -39,6 +61,8 @@ Set.h
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/SetIterator.h
 Set.h
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/Set.h
+../DoubleLinkedListArray/DoubleLinkedListArrayIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArrayIterator.h
 
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Tests/ExtendedTest.cpp
 ../Set/Set.h
@@ -81,4 +105,8 @@ iostream
 -
 ./Tests/TestingClass.h
 /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/./Tests/TestingClass.h
+./Tests/ShortTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/./Tests/ShortTest.h
+./Tests/ExtendedTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/./Tests/ExtendedTest.h
 

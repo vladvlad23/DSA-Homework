@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Assignment4.dir/Set/SetIterator.cpp.o"
   "CMakeFiles/Assignment4.dir/DoubleLinkedListArray/DoubleLinkedListArray.cpp.o"
   "CMakeFiles/Assignment4.dir/Tests/TestingClass.cpp.o"
+  "CMakeFiles/Assignment4.dir/DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.o"
   "Assignment4.pdb"
   "Assignment4"
 )

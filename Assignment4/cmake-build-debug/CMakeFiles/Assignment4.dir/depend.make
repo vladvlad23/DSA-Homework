@@ -3,20 +3,33 @@
 
 CMakeFiles/Assignment4.dir/DoubleLinkedListArray/DoubleLinkedListArray.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArray.cpp
 CMakeFiles/Assignment4.dir/DoubleLinkedListArray/DoubleLinkedListArray.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArray.h
+CMakeFiles/Assignment4.dir/DoubleLinkedListArray/DoubleLinkedListArray.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArrayIterator.h
 
+CMakeFiles/Assignment4.dir/DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArray.h
+CMakeFiles/Assignment4.dir/DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp
+CMakeFiles/Assignment4.dir/DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArrayIterator.h
+
+CMakeFiles/Assignment4.dir/Set/Set.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArray.h
+CMakeFiles/Assignment4.dir/Set/Set.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArrayIterator.h
 CMakeFiles/Assignment4.dir/Set/Set.cpp.o: ../Set/Set.cpp
 CMakeFiles/Assignment4.dir/Set/Set.cpp.o: ../Set/Set.h
 CMakeFiles/Assignment4.dir/Set/Set.cpp.o: ../Set/SetIterator.h
 
+CMakeFiles/Assignment4.dir/Set/SetIterator.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArray.h
+CMakeFiles/Assignment4.dir/Set/SetIterator.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArrayIterator.h
 CMakeFiles/Assignment4.dir/Set/SetIterator.cpp.o: ../Set/Set.h
 CMakeFiles/Assignment4.dir/Set/SetIterator.cpp.o: ../Set/SetIterator.cpp
 CMakeFiles/Assignment4.dir/Set/SetIterator.cpp.o: ../Set/SetIterator.h
 
+CMakeFiles/Assignment4.dir/Tests/ExtendedTest.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArray.h
+CMakeFiles/Assignment4.dir/Tests/ExtendedTest.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArrayIterator.h
 CMakeFiles/Assignment4.dir/Tests/ExtendedTest.cpp.o: ../Set/Set.h
 CMakeFiles/Assignment4.dir/Tests/ExtendedTest.cpp.o: ../Set/SetIterator.h
 CMakeFiles/Assignment4.dir/Tests/ExtendedTest.cpp.o: ../Tests/ExtendedTest.cpp
 CMakeFiles/Assignment4.dir/Tests/ExtendedTest.cpp.o: ../Tests/ExtendedTest.h
 
+CMakeFiles/Assignment4.dir/Tests/ShortTest.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArray.h
+CMakeFiles/Assignment4.dir/Tests/ShortTest.cpp.o: ../DoubleLinkedListArray/DoubleLinkedListArrayIterator.h
 CMakeFiles/Assignment4.dir/Tests/ShortTest.cpp.o: ../Set/Set.h
 CMakeFiles/Assignment4.dir/Tests/ShortTest.cpp.o: ../Set/SetIterator.h
 CMakeFiles/Assignment4.dir/Tests/ShortTest.cpp.o: ../Tests/ShortTest.cpp
@@ -27,6 +40,8 @@ CMakeFiles/Assignment4.dir/Tests/TestingClass.cpp.o: ../Tests/TestingClass.cpp
 CMakeFiles/Assignment4.dir/Tests/TestingClass.cpp.o: ../Tests/TestingClass.h
 
 CMakeFiles/Assignment4.dir/main.cpp.o: .././DoubleLinkedListArray/DoubleLinkedListArray.h
+CMakeFiles/Assignment4.dir/main.cpp.o: .././Tests/ExtendedTest.h
+CMakeFiles/Assignment4.dir/main.cpp.o: .././Tests/ShortTest.h
 CMakeFiles/Assignment4.dir/main.cpp.o: .././Tests/TestingClass.h
 CMakeFiles/Assignment4.dir/main.cpp.o: ../main.cpp
 

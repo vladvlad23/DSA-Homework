@@ -90,6 +90,12 @@
 		<Unit filename="/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArray.h">
 			<Option target="Assignment4"/>
 		</Unit>
+		<Unit filename="/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArrayIterator.h">
+			<Option target="Assignment4"/>
+		</Unit>
 		<Unit filename="/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/Set.cpp">
 			<Option target="Assignment4"/>
 		</Unit>

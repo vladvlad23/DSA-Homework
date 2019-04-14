@@ -2,6 +2,7 @@
 // Created by Vlad on 13-Apr-19.
 //
 
+#include <stdexcept>
 #include "Set.h"
 #include "SetIterator.h"
 
@@ -12,27 +13,34 @@ Set::Set()
 
 bool Set::add(TElem e)
 {
-    return false;
+    if(elements.search(e))
+        return false;
+    elements.insertAtEnd(e);
+    return true;
 }
 
 bool Set::remove(TElem e)
 {
-    return false;
+    int searchResult = elements.searchPosition(e);
+    if(searchResult==-1)
+        return false;
+    elements.removeByNodePosition(searchResult);
+    return true;
 }
 
 bool Set::search(TElem elem) const
 {
-    return false;
+    return elements.search(elem);
 }
 
 int Set::size() const
 {
-    return 0;
+    return elements.getSize();
 }
 
 bool Set::isEmpty() const
 {
-    return false;
+    return elements.getSize()==0;
 }
 
 SetIterator Set::iterator() const

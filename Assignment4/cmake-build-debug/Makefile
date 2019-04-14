@@ -150,6 +150,33 @@ DoubleLinkedListArray/DoubleLinkedListArray.cpp.s:
 	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/DoubleLinkedListArray/DoubleLinkedListArray.cpp.s
 .PHONY : DoubleLinkedListArray/DoubleLinkedListArray.cpp.s
 
+DoubleLinkedListArray/DoubleLinkedListArrayIterator.o: DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.o
+
+.PHONY : DoubleLinkedListArray/DoubleLinkedListArrayIterator.o
+
+# target to build an object file
+DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.o:
+	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.o
+.PHONY : DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.o
+
+DoubleLinkedListArray/DoubleLinkedListArrayIterator.i: DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.i
+
+.PHONY : DoubleLinkedListArray/DoubleLinkedListArrayIterator.i
+
+# target to preprocess a source file
+DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.i:
+	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.i
+.PHONY : DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.i
+
+DoubleLinkedListArray/DoubleLinkedListArrayIterator.s: DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.s
+
+.PHONY : DoubleLinkedListArray/DoubleLinkedListArrayIterator.s
+
+# target to generate assembly for a file
+DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.s:
+	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.s
+.PHONY : DoubleLinkedListArray/DoubleLinkedListArrayIterator.cpp.s
+
 Set/Set.o: Set/Set.cpp.o
 
 .PHONY : Set/Set.o
@@ -324,6 +351,9 @@ help:
 	@echo "... DoubleLinkedListArray/DoubleLinkedListArray.o"
 	@echo "... DoubleLinkedListArray/DoubleLinkedListArray.i"
 	@echo "... DoubleLinkedListArray/DoubleLinkedListArray.s"
+	@echo "... DoubleLinkedListArray/DoubleLinkedListArrayIterator.o"
+	@echo "... DoubleLinkedListArray/DoubleLinkedListArrayIterator.i"
+	@echo "... DoubleLinkedListArray/DoubleLinkedListArrayIterator.s"
 	@echo "... Set/Set.o"
 	@echo "... Set/Set.i"
 	@echo "... Set/Set.s"

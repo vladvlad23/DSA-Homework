@@ -4,6 +4,7 @@
 
 #include <stdexcept>
 #include "DoubleLinkedListArray.h"
+#include "DoubleLinkedListArrayIterator.h"
 
 void DoubleLinkedListArray::insertPosition(TElem element, int position)
 {
@@ -66,6 +67,8 @@ void DoubleLinkedListArray::remove(int position)
     nodes[currentNode].next=firstEmpty;
     nodes[currentNode].prev=-1;
     firstEmpty=currentNode;
+
+    size--;
 }
 
 void DoubleLinkedListArray::insertAtEnd(TElem element)
@@ -85,7 +88,7 @@ void DoubleLinkedListArray::insertAtEnd(TElem element)
     size++;
 }
 
-bool DoubleLinkedListArray::search(TElem element)
+bool DoubleLinkedListArray::search(TElem element) const
 {
     int currentNode = head;
     DLLANode nod;
@@ -128,9 +131,11 @@ DoubleLinkedListArray::~DoubleLinkedListArray()
 void DoubleLinkedListArray::doubleCapacity()
 {
     DLLANode *newNodes = new DLLANode[capacity*2];
+    DLLANode node;
     for(int i = 0;i<size;i++)
     {
-        newNodes[i] = nodes[i];
+        node = nodes[i];
+        newNodes[i] = node;
     }
     for(int i = size;i<capacity*2-1;i++)
     {
@@ -163,3 +168,69 @@ int DoubleLinkedListArray::allocateNewElement()
     }
     return newElement;
 }
+
+int DoubleLinkedListArray::searchPosition(TElem element) const
+{
+    int currentNode = head;
+    DLLANode nod;
+    while(currentNode!=-1)
+    {
+        nod = nodes[currentNode];
+        if(nod.info == element)
+            return currentNode;
+        currentNode = nodes[currentNode].next;
+    }
+    return -1;
+}
+
+void DoubleLinkedListArray::removeByNodePosition(int currentNode)
+{
+    if(nodes[currentNode].prev==-1)
+    {
+        if(nodes[currentNode].next!=-1)
+            nodes[nodes[currentNode].next].prev = -1;
+        head=nodes[currentNode].next;
+        if(head==-1)
+            tail=-1;
+        nodes[currentNode].next=firstEmpty;
+        nodes[currentNode].prev=-1;
+        firstEmpty = currentNode;
+        size--;
+        return;
+    }
+    DLLANode node;
+    if(nodes[currentNode].next==-1)
+    {
+        node = nodes[currentNode];
+        if(nodes[currentNode].prev!=-1)
+        {
+            nodes[nodes[currentNode].prev].next=-1;
+        }
+        tail=nodes[currentNode].prev;
+        nodes[currentNode].next=firstEmpty;
+        nodes[currentNode].prev=-1;
+        firstEmpty = currentNode;
+        size--;
+        return;
+    }
+    int prevNode = nodes[currentNode].prev;
+    //we are behind the node that needs to be removed
+    nodes[prevNode].next = nodes[currentNode].next; //the one before points to the one after
+    nodes[nodes[currentNode].next].prev = prevNode; // the one after points to the one before
+
+    //so, this isn't in the courses as pseudocode, so i have to note it so i know tf happened
+    //this will practically make a list of empty spots to which we append the one we just freed
+    nodes[currentNode].next=firstEmpty;
+    nodes[currentNode].prev=-1;
+    firstEmpty=currentNode;
+    size--;
+}
+
+DoubleLinkedListArrayIterator DoubleLinkedListArray::iterator() const
+{
+    return DoubleLinkedListArrayIterator(*this);
+}
+
+
+
+

@@ -5,6 +5,8 @@
 #ifndef ASSIGNMENT4_SET_H
 #define ASSIGNMENT4_SET_H
 
+#include "../DoubleLinkedListArray/DoubleLinkedListArray.h"
+
 typedef int TElem;
 
 class SetIterator;
@@ -16,10 +18,7 @@ class Set {
 private:
 
     /* representation of Set*/
-
-
-
-
+    DoubleLinkedListArray elements;
 
 public:
 

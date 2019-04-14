@@ -24,6 +24,21 @@ void TestingClass::testDoubleLinkedListOnArray()
     list.insertPosition(5,0);
     assert(list.search(5));
     assert(list.search(40));
+    assert(list.getSize() == 8);
+
+    //########## Test removal ##########
+
+    list.removeByNodePosition(2);
+    assert(list.getSize() == 7);
+    assert(!list.search(30));
+    assert(list.search(40));
+
+    list.removeByNodePosition(0);
+    assert(list.getSize() == 6);
+    assert(!list.search(10));
+
+    list.insertAtEnd(30);
+    assert(list.search(30));
 
 
 

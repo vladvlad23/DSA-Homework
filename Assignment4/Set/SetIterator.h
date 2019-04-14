@@ -5,6 +5,7 @@
 #ifndef ASSIGNMENT4_SETITERATOR_H
 #define ASSIGNMENT4_SETITERATOR_H
 #include "Set.h"
+#include "../DoubleLinkedListArray/DoubleLinkedListArrayIterator.h"
 
 //unidirectional iterator for a container
 
@@ -24,6 +25,7 @@ private:
     //contains a reference of the container it iterates over
 
     const Set& c;
+    DoubleLinkedListArrayIterator listIterator;
 
 
 

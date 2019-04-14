@@ -9,7 +9,6 @@
 void LinkedListIterator::first()
 {
     position = 0;
-
 }
 
 void LinkedListIterator::next()
@@ -17,7 +16,6 @@ void LinkedListIterator::next()
     if(!valid())
         throw std::invalid_argument("Iterator is invalid\n");
     position++;
-
 }
 
 bool LinkedListIterator::valid() const

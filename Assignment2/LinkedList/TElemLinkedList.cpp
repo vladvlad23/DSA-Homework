@@ -6,11 +6,13 @@
 #include "TElemLinkedList.h"
 #include "LinkedListIterator.h"
 
+//Theta(1)
 Node *TElemLinkedList::getHead() const
 {
     return head;
 }
 
+//Theta(1)
 void TElemLinkedList::setHead(Node *head)
 {
     if(!TElemLinkedList::head)
@@ -24,6 +26,7 @@ void TElemLinkedList::setHead(Node *head)
     TElemLinkedList::head = head;
 }
 
+//O(n)
 Node * TElemLinkedList::search(TElem elementToBeSearched) const
 {
     Node *node = head;
@@ -37,6 +40,7 @@ Node * TElemLinkedList::search(TElem elementToBeSearched) const
 }
 
 //add to the end
+//O(n)
 void TElemLinkedList::add(TElem elementToBeAdded)
 {
     Node *node = head;
@@ -54,6 +58,7 @@ void TElemLinkedList::add(TElem elementToBeAdded)
     numberOfElements++;
 }
 
+//Theta(1)
 void TElemLinkedList::addAfter(Node *currentNode, TElem elementToBeAdded)
 {
     if(!head)
@@ -65,28 +70,11 @@ void TElemLinkedList::addAfter(Node *currentNode, TElem elementToBeAdded)
     Node *node = new Node(elementToBeAdded);
     node->next = currentNode->next;
     currentNode->next = node;
-    /*
-    Node *node = head;
-    Node *prevNode = head;
-    while(node != currentNode)
-    {
-        prevNode = node;
-        node = node->next;
-    }
-    if(!(node->next))
-    {
-        node->next = new Node(elementToBeAdded);
-        numberOfElements++;
-        return;
-    }
-    prevNode = node;
-    node = new Node(elementToBeAdded);
-    node->next = prevNode->next;
-    prevNode->next = node;*/
     numberOfElements++;
 
 }
 
+//O(n)
 void TElemLinkedList::remove(TElem elementToBeRemoved)
 {
     Node *node = head;
@@ -118,6 +106,7 @@ void TElemLinkedList::remove(TElem elementToBeRemoved)
     numberOfElements--;
 }
 
+//O(n)
 TElem TElemLinkedList::getElement(int position) const
 {
     int i;
@@ -141,12 +130,15 @@ LinkedListIterator TElemLinkedList::iterator() const
     return LinkedListIterator(*this);
 }
 
+
 TElemLinkedList::TElemLinkedList(TElem firstElement)
 {
     head = new Node(firstElement);
     numberOfElements = 0;
 }
 
+//destroy linked list
+//O(n)
 TElemLinkedList::~TElemLinkedList()
 {
     while(head)
@@ -157,6 +149,7 @@ TElemLinkedList::~TElemLinkedList()
     }
 }
 
+
 TElemLinkedList::TElemLinkedList()
 {
     head = nullptr;
@@ -164,27 +157,19 @@ TElemLinkedList::TElemLinkedList()
 
 }
 
+//Theta(1)
 int TElemLinkedList::size() const
 {
     return numberOfElements;
-    /*
-    if(!head)
-        return 0;
-    Node *node = head;
-    int size=1;
-    while(node->next!= nullptr)
-    {
-        size++;
-        node = node->next;
-    }
-    return size;*/
 }
 
+//Theta(1)
 bool TElemLinkedList::isEmpty() const
 {
     return head == nullptr;
 }
 
+//O(n)
 Node *TElemLinkedList::getNodeByPosition(int position) const
 {
     int i;

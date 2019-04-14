@@ -37,7 +37,7 @@ void testAdd() {
 		k++;
 		it.next();
 	}
-	//test parcurgere
+	//test going through
 	for (int i = 0; i < da.size(); i++) {
 		TElem e = da.getElement(i);
 		assert(e == vals[i]);

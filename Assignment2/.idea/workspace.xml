@@ -12,17 +12,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f11b54e-d4c1-4710-9a9c-649d7b8a2f67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SortedSet/SortedSet.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortedSet/SortedSet.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment1/DAIterator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/DAIterator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/DynamicArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/DynamicArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/DynamicArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/DynamicArray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/Tests/ExtendedTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/Tests/ExtendedTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/Tests/personalTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/Tests/personalTest.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/Assignment1" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/Assignment1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/DAIterator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/DAIterator.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/DynamicArray.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/DynamicArray.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/Tests/ExtendedTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/Tests/ExtendedTest.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/Tests/ShortTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/Tests/ShortTest.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/Tests/personalTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/Tests/personalTest.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/LinkedListIterator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/LinkedListIterator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/TElemLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/TElemLinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortedSet/SortedSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SortedSet/SortedSet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ExtendedTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ExtendedTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment2.dir/LinkedList/TElemLinkedList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment2.dir/LinkedList/TElemLinkedList.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment2.dir/SortedSet/SortedSet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment2.dir/SortedSet/SortedSet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment2.dir/Tests/ExtendedTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment2.dir/Tests/ExtendedTest.cpp.o" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,48 +44,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+        <entry file="file://$PROJECT_DIR$/LinkedList/LinkedListIterator.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SortedSet/SortedSetIterator.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="219">
+              <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
               <folding>
                 <element signature="e#40#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/ExtendedTest.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="288" column="16" selection-start-line="288" selection-start-column="16" selection-end-line="288" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/ShortTest.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SortedSet/SortedSet.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="69" column="14" lean-forward="true" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+            <state relative-caret-position="253">
+              <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
               <folding>
                 <element signature="e#40#60#0" expanded="true" />
               </folding>
@@ -95,9 +68,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedList/TElemLinkedList.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="108" column="6" lean-forward="true" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
+              <folding>
+                <element signature="e#40#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedList/TElemLinkedList.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SortedSet/SortedSet.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="340">
               <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
               <folding>
                 <element signature="e#15#57#0" expanded="true" />
@@ -106,23 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LinkedList/TElemLinkedList.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-91">
-              <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
-              <folding>
-                <element signature="e#40#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/LinkedListIterator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+            <state relative-caret-position="74">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -136,11 +118,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/TElemLinkedList.h">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/ExtendedTest.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="419">
+              <caret line="292" column="1" lean-forward="true" selection-start-line="292" selection-start-column="1" selection-end-line="292" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SortedSet/SortedSetIterator.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding>
+                <element signature="e#40#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SortedSet/SortedSetIterator.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding>
+                <element signature="e#122#144#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,11 +186,11 @@
         <option value="$PROJECT_DIR$/LinkedList/LinkedListIterator.h" />
         <option value="$PROJECT_DIR$/Tests/PersonalTests.cpp" />
         <option value="$PROJECT_DIR$/LinkedList/TElemLinkedList.h" />
-        <option value="$PROJECT_DIR$/LinkedList/LinkedListIterator.cpp" />
-        <option value="$PROJECT_DIR$/Tests/ExtendedTest.cpp" />
-        <option value="$PROJECT_DIR$/LinkedList/TElemLinkedList.cpp" />
-        <option value="$PROJECT_DIR$/SortedSet/SortedSet.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Tests/ExtendedTest.cpp" />
+        <option value="$PROJECT_DIR$/SortedSet/SortedSet.cpp" />
+        <option value="$PROJECT_DIR$/LinkedList/TElemLinkedList.cpp" />
+        <option value="$PROJECT_DIR$/LinkedList/LinkedListIterator.cpp" />
       </list>
     </option>
   </component>
@@ -274,24 +283,25 @@
       <workItem from="1553937217589" duration="7585000" />
       <workItem from="1553961696990" duration="4742000" />
       <workItem from="1554023962637" duration="1569000" />
-      <workItem from="1554025564880" duration="17491000" />
+      <workItem from="1554025564880" duration="18445000" />
+      <workItem from="1554106343755" duration="3289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32917000" />
+    <option name="totallyTimeSpent" value="37160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.48725212" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.44617563" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.5609065" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.47733712" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -312,30 +322,6 @@
     <option name="version" value="1" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Tests/ExtendedTest.cpp</url>
-          <line>268</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Tests/ShortTest.cpp</url>
-          <line>31</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Tests/ShortTest.cpp</url>
-          <line>21</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Tests/ShortTest.cpp</url>
-          <line>47</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="s.list" />
@@ -410,16 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SortedSet/SortedSetIterator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="e#122#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/PersonalTests.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -430,13 +406,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/LinkedListIterator.cpp">
+    <entry file="file://$PROJECT_DIR$/Tests/ShortTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="140">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SortedSet/SortedSet.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding>
+            <element signature="e#15#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SortedSet/SortedSet.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
           <folding>
             <element signature="e#40#60#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SortedSet/SortedSetIterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="e#122#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SortedSet/SortedSetIterator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#40#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/TElemLinkedList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="108" column="6" lean-forward="true" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
+          <folding>
+            <element signature="e#40#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/TElemLinkedList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/LinkedListIterator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="e#40#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/LinkedListIterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -447,86 +504,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/LinkedListIterator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/TElemLinkedList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/ShortTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortedSet/SortedSetIterator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding>
-            <element signature="e#40#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortedSet/SortedSet.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-          <folding>
-            <element signature="e#15#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/ExtendedTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="288" column="16" selection-start-line="288" selection-start-column="16" selection-end-line="288" selection-end-column="16" />
+        <state relative-caret-position="419">
+          <caret line="292" column="1" lean-forward="true" selection-start-line="292" selection-start-column="1" selection-end-line="292" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortedSet/SortedSet.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="69" column="14" lean-forward="true" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
-          <folding>
-            <element signature="e#40#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/TElemLinkedList.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
-          <folding>
-            <element signature="e#40#60#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -35,6 +35,26 @@ void testDynamicArrayPersonal()
     assert(da.size() == 5);
     assert(da.setElement(0, 7) == 10);
     assert(da.size() == 5);
+
+    DynamicArray da2(4);
+    da2.addToEnd(1);
+    da2.addToEnd(2);
+    da2.addToEnd(3);
+    da2.addToEnd(4);
+    da2.addToEnd(7);
+    da2.addToEnd(10);
+    assert(da2.areUnique());
+
+
+    //IN LAB ASSIGNMENT
+    da2.addToEnd(3);
+    assert(!da2.areUnique());
+
+    da2.remove(da2.size()-1);
+    assert(da2.areUnique());
+
+    da2.addToPosition(0,10);
+    assert(!da2.areUnique());
 }
 
 

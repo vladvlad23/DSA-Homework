@@ -11,9 +11,9 @@ SortedSet::SortedSet(Relation r)
     relation = r;
 }
 
+//Complexity of O(n)
 bool SortedSet::add(TComp e)
 {
-    //LinkedListIterator it = list.iterator(); //iterator for list
     if(!list.getHead())
     {
         list.setHead(new Node(e));
@@ -42,27 +42,13 @@ bool SortedSet::add(TComp e)
             return false;
         currentNode = currentNode->next;
     }
-
-/*
-    while(it.valid() && relation(it.getCurrent(),e))
-    {
-        if(it.valid())
-            prevNode = it.getCurrentNode();
-        else
-        {
-            list.addAfter(prevNode, e);
-            return true;
-        }
-        it.next();
-    }
-*/
     if(prevNode->next)
         if(prevNode->next->information == e)
             return false;
     list.addAfter(prevNode, e);
     return true;
 }
-
+//Complexity O(n)
 bool SortedSet::remove(TComp e)
 {
     if(!list.search(e))
@@ -71,21 +57,25 @@ bool SortedSet::remove(TComp e)
     return true;
 }
 
+//Complexity O(n)
 bool SortedSet::search(TElem elem) const
 {
     return (list.search(elem) != nullptr);
 }
 
+//Complexity Theta(1)
 int SortedSet::size() const
 {
     return list.size();
 }
 
+//Complexity Theta(1)
 bool SortedSet::isEmpty() const
 {
     return list.isEmpty();
 }
 
+//Complexity Theta(1)
 SortedSetIterator SortedSet::iterator() const
 {
     return SortedSetIterator(*this);

@@ -12,23 +12,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1dbdf04-fcc3-439e-baff-ef673a0db369" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Assignment2/SortedSet.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment2/SortedSet.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAIterator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DAIterator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicArray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ExtendedTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ExtendedTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/personalTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/personalTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/a.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/CXX.includecache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/DAIterator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/DynamicArray.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/Tests/ExtendedTest.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/Tests/ShortTest.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/Tests/personalTest.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/depend.internal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/LinkedList/LinkedListIterator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/LinkedList/LinkedListIterator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/LinkedList/TElemLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/LinkedList/TElemLinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/SortedSet/SortedSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/SortedSet/SortedSet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/Tests/ExtendedTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/Tests/ExtendedTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/cmake-build-debug/Assignment2" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/cmake-build-debug/Assignment2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/cmake-build-debug/CMakeFiles/Assignment2.dir/LinkedList/TElemLinkedList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/cmake-build-debug/CMakeFiles/Assignment2.dir/LinkedList/TElemLinkedList.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/cmake-build-debug/CMakeFiles/Assignment2.dir/SortedSet/SortedSet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/cmake-build-debug/CMakeFiles/Assignment2.dir/SortedSet/SortedSet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/cmake-build-debug/CMakeFiles/Assignment2.dir/Tests/ExtendedTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/cmake-build-debug/CMakeFiles/Assignment2.dir/Tests/ExtendedTest.cpp.o" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +78,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="153">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -53,10 +91,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/ShortTest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/personalTest.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="621">
+              <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -67,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DynamicArray.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="68">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -76,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DAIterator.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="85">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
                 <element signature="e#40#60#0" expanded="true" />
               </folding>
@@ -88,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DAIterator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -114,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DynamicArray.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="170">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding>
                 <element signature="e#40#60#0" expanded="true" />
               </folding>
@@ -135,14 +182,14 @@
         <option value="$PROJECT_DIR$/VectorList.h" />
         <option value="$PROJECT_DIR$/Tests/ShortTest.cpp" />
         <option value="$PROJECT_DIR$/Tests/personalTest.h" />
-        <option value="$PROJECT_DIR$/Tests/ExtendedTest.cpp" />
         <option value="$PROJECT_DIR$/DAIterator.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/DAIterator.cpp" />
+        <option value="$PROJECT_DIR$/Tests/ExtendedTest.cpp" />
+        <option value="$PROJECT_DIR$/DynamicArray.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Tests/personalTest.cpp" />
         <option value="$PROJECT_DIR$/DynamicArray.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/DAIterator.cpp" />
-        <option value="$PROJECT_DIR$/DynamicArray.h" />
       </list>
     </option>
   </component>
@@ -227,18 +274,21 @@
       <workItem from="1552915603271" duration="2000" />
       <workItem from="1552921008704" duration="160000" />
       <workItem from="1553939672970" duration="795000" />
+      <workItem from="1554109539446" duration="1984000" />
+      <workItem from="1554111956754" duration="1874000" />
+      <workItem from="1554130261416" duration="1596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20674000" />
+    <option name="totallyTimeSpent" value="26128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2751678" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2872483" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -247,7 +297,7 @@
       <window_info anchor="bottom" id="Messages" order="4" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3711048" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.062322944" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -271,11 +321,6 @@
           <line>26</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Tests/ExtendedTest.cpp</url>
-          <line>142</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -294,13 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/ShortTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/ShortTest.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -312,6 +350,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/ShortTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAIterator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#40#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAIterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -328,56 +400,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/personalTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAIterator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAIterator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#40#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DynamicArray.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="68">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DynamicArray.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="170">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
             <element signature="e#40#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Tests/personalTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="621">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#39#58#0" expanded="true" />
           </folding>
         </state>
       </provider>

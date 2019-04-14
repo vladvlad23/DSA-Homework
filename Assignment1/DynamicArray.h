@@ -86,6 +86,8 @@ public:
 
     DAIterator iterator() const;
 
+    bool areUnique() const;
+
 
 
     //destructor

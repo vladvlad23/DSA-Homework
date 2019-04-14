@@ -1,0 +1,84 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/./DoubleLinkedListArray/DoubleLinkedListArray.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/./Tests/TestingClass.h
+../DoubleLinkedListArray/DoubleLinkedListArray.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/./DoubleLinkedListArray/DoubleLinkedListArray.h
+assert.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/./Tests/assert.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArray.cpp
+stdexcept
+-
+DoubleLinkedListArray.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArray.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArray.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/Set.cpp
+Set.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/Set.h
+SetIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/SetIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/Set.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/SetIterator.cpp
+SetIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/SetIterator.h
+Set.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/Set.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/SetIterator.h
+Set.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/Set.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Tests/ExtendedTest.cpp
+../Set/Set.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/Set.h
+assert.h
+-
+ExtendedTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Tests/ExtendedTest.h
+../Set/SetIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/SetIterator.h
+iostream
+-
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Tests/ExtendedTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Tests/ShortTest.cpp
+ShortTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Tests/ShortTest.h
+assert.h
+-
+../Set/Set.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/Set.h
+../Set/SetIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Set/SetIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Tests/ShortTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Tests/TestingClass.cpp
+TestingClass.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Tests/TestingClass.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Tests/TestingClass.h
+../DoubleLinkedListArray/DoubleLinkedListArray.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/DoubleLinkedListArray/DoubleLinkedListArray.h
+assert.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/Tests/assert.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/main.cpp
+iostream
+-
+./Tests/TestingClass.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Assignment4/./Tests/TestingClass.h
+

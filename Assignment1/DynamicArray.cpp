@@ -118,6 +118,7 @@ void DynamicArray::addToPosition(int pos,TElem newElem)
     numberOfElements++;
 
 }
+//O(n)
 TElem DynamicArray::remove(int position)
 {
     /*
@@ -143,3 +144,32 @@ DAIterator DynamicArray::iterator() const
     return DAIterator(*this);
 
 }
+
+//Complexity is worst O(n^2) theta(1)
+bool DynamicArray::areUnique() const
+{
+    int i,j;
+    for(i=0;i<numberOfElements-1;i++)
+    {
+        for(j=i+1;j<numberOfElements;j++)
+        {
+            if(elements[i] == elements[j])
+            {
+                return false;
+            }
+        }
+    }
+    return true;
+}
+
+/*pseudocode
+ * subalgorithm areUnique(DynamicArray) is:
+ *      for i<-0,DynamicArray.numberOfElements execute
+ *          for j<-i+1,DynamicArray.numberOfElements execute
+ *             if DynamicArray.elements[i] == DynamicArray.elements[j] then
+ *                  areUnique<-false
+ *           end-for
+ *      end-for
+ *      areUnique<-true
+ * end-subalgorithm
+ **/

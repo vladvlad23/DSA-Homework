@@ -260,8 +260,6 @@ void testQuantity(Relation r) {
 	SortedSet s(r);
 	for (int i = 10; i >= 1; i--) {
 		for (int j = -30000; j < 30000; j = j + i) {
-			if(j%10000==0)
-				std::cout<<i<<" "<<j<<endl;
 			s.add(j);
 		}
 	}
@@ -273,7 +271,7 @@ void testQuantity(Relation r) {
 	for (int i = 0; i < s.size(); i++) {
 		it.next();
 	}
-	std::cout<<"validation of iterator from quantity is ok\n";
+	std::cout<<"Validation of iterator from quantity is ok\n";
 
 	it.first();
 	while (it.valid()) { 
@@ -281,7 +279,7 @@ void testQuantity(Relation r) {
 		assert(s.search(e) == true);
 		it.next();
 	}
-	std::cout<<"searching all elements from quantity is oki\n";
+	std::cout<<"Searching all elements from quantity is oki\n";
 
 	assert(it.valid() == false);
 	for (int i = 0; i < 10; i++) {
@@ -289,10 +287,9 @@ void testQuantity(Relation r) {
 			s.remove(j);
 		}
 	}
-	std::cout<<"removing everything form quantity is oki\n";
+	std::cout<<"Removing everything form quantity is oki\n";
 
 	assert(s.size() == 0);
-	std::cout<<"quantity is oki\n";
 }
 
 

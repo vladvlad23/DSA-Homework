@@ -1,0 +1,70 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/ExtendedTest.cpp
+assert.h
+-
+Matrix.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/Matrix.h
+ExtendedTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/ExtendedTest.h
+iostream
+-
+exception
+-
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/ExtendedTest.h
+ExtendedTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/ExtendedTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/Matrix.cpp
+stdexcept
+-
+Matrix.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/Matrix.h
+MatrixIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/MatrixIterator.h
+iostream
+-
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/Matrix.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/MatrixIterator.cpp
+stdexcept
+-
+MatrixIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/MatrixIterator.h
+Matrix.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/Matrix.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/MatrixIterator.h
+Matrix.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/Matrix.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/ShortTest.cpp
+assert.h
+-
+bits/exception.h
+-
+Matrix.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/Matrix.h
+ShortTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/ShortTest.h
+MatrixIterator.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/MatrixIterator.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/ShortTest.h
+
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/main.cpp
+iostream
+-
+ShortTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/ShortTest.h
+ExtendedTest.h
+/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/Laboratory6/ExtendedTest.h
+

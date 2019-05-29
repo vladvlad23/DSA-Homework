@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DSATeamWork.dir/Heap.cpp.o CMakeFiles/DSATeamWork.dir/main.cpp.o CMakeFiles/DSATeamWork.dir/Tests.cpp.o CMakeFiles/DSATeamWork.dir/TestP11.cpp.o CMakeFiles/DSATeamWork.dir/P11.cpp.o  -o DSATeamWork 

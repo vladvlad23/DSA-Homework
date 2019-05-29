@@ -47,30 +47,6 @@ void DoubleLinkedListArray::insertPosition(TElem element, int position)
     size++;
 }
 
-void DoubleLinkedListArray::remove(int position)
-{
-    int prevNode = head;
-    int currentNode = head;
-    int currentPosition = 0;
-    while(currentPosition<position)
-    {
-        prevNode = currentNode;
-        currentNode = nodes[currentNode].next;
-        currentPosition++;
-    }
-    //we are behind the node that needs to be removed
-    nodes[prevNode].next = nodes[currentNode].next; //the one before points to the one afte
-    nodes[nodes[currentNode].next].prev = prevNode;
-
-    //so, this isn't in the courses as pseudocode, so i have to note it so i know tf happened
-    //this will practically make a list of empty spots to which we append the one we just freed
-    nodes[currentNode].next=firstEmpty;
-    nodes[currentNode].prev=-1;
-    firstEmpty=currentNode;
-
-    size--;
-}
-
 void DoubleLinkedListArray::insertAtEnd(TElem element)
 {
     int newPosition = allocateNewElement();

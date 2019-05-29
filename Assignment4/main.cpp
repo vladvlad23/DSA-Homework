@@ -6,6 +6,7 @@ int main()
 {
     TestingClass test;
     test.testDoubleLinkedListOnArray();
+    test.testInLabAssignment();
     testAll();
     testAllExtended();
     return 0;

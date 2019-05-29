@@ -239,7 +239,7 @@ void testAllExtended() {
 	testIterator();
 	std::cout<<"Test iterator is sucessfull\n";
 	testQuantity();
-	std::cout<<"Addition in quantity is oki\n";
+	std::cout<<"Test quantity is oki\n";
 }
 
 

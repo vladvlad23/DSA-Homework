@@ -52,3 +52,47 @@ Set::~Set()
 {
 
 }
+
+int Set::difference(const Set &s)
+{
+    SetIterator it = s.iterator();
+    it.first();
+    int numberRemoved=0;
+    while(it.valid())
+    {
+        TElem potentiallyRemoved = it.getCurrent();
+        if(remove(potentiallyRemoved))
+        {
+            numberRemoved++;
+        }
+        it.next();
+    }
+    return numberRemoved;
+}
+
+/*
+ * Iterating through the elements with iterator - theta(m)
+ * Searching for elements each iteration and removing them if necessary - O(n)
+ * Total complexity - O(n*m)
+ * best case - theta(n)
+ * average and worst - O(n*m)
+ *
+ * subalgorithm difference(firstSet,secondSet):
+ *      it <- firstSet.iterator
+ *      numberRemoved <- 0
+ *      while it.valid execute:
+ *          potentiallyRemoved <- it.getCurrent
+ *          if firstSet.search(potentiallyRemoved) is true then:
+ *              firstSet.remove(potentiallyRemoved)
+ *              numberRemoved <- numberRemoved + 1
+ *          end-if
+ *          it.next
+ *      end-while
+ *
+ *      difference <- numberRemoved
+ *
+ *
+
+
+
+ */

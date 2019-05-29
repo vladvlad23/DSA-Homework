@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Laboratory6.dir/main.cpp.o CMakeFiles/Laboratory6.dir/Matrix.cpp.o CMakeFiles/Laboratory6.dir/ShortTest.cpp.o CMakeFiles/Laboratory6.dir/ExtendedTest.cpp.o CMakeFiles/Laboratory6.dir/MatrixIterator.cpp.o  -o Laboratory6 

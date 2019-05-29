@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/DSAT"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/e/College/First Year/Second Semester/Data Structures and Algorithms/DSAT/cmake-build-debug

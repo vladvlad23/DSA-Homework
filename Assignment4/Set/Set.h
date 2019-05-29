@@ -68,7 +68,7 @@ public:
 
     SetIterator iterator() const;
 
-
+    int difference(const Set &s);
 
     //destructor
 

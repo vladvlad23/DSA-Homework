@@ -1,0 +1,26 @@
+dsa notes for first lab:
+
+1. Dynamic Array:
+elems : TElem[]
+cap : integer
+length : integer
+
+
+operation:
+addToEnd
+init
+remove
+search
+destroy
+size()
+Iterator()
+
+
+init
+destroy
+size
+get/set
+addtoEnd
+addtoPos
+deleteFromPos
+Iterator

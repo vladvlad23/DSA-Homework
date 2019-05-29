@@ -43,3 +43,32 @@ void TestingClass::testDoubleLinkedListOnArray()
 
 
 }
+
+void TestingClass::testInLabAssignment()
+{
+    Set firstSet;
+    firstSet.add(10);
+    firstSet.add(15);
+    firstSet.add(20);
+    firstSet.add(25);
+    firstSet.add(30);
+    firstSet.add(35);
+    firstSet.add(40);
+    firstSet.add(45);
+
+    Set secondSet;
+    secondSet.add(42);
+    secondSet.add(50);
+    secondSet.add(60);
+    secondSet.add(15);
+    secondSet.add(25);
+    secondSet.add(35);
+    secondSet.add(45);
+
+    assert(firstSet.difference(secondSet)==4);
+    assert(!firstSet.search(15));
+    assert(!firstSet.search(25));
+    assert(!firstSet.search(35));
+    assert(!firstSet.search(45));
+
+}

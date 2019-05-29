@@ -5,6 +5,7 @@
 #ifndef ASSIGNMENT4_TESTINGCLASS_H
 #define ASSIGNMENT4_TESTINGCLASS_H
 #include "../DoubleLinkedListArray/DoubleLinkedListArray.h"
+#include "../Set/Set.h"
 #include "assert.h"
 
 class TestingClass
@@ -12,6 +13,7 @@ class TestingClass
 public:
 
     void testDoubleLinkedListOnArray();
+    void testInLabAssignment();
 
 };
 

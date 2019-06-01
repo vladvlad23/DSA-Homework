@@ -11,8 +11,10 @@ class TestBST
 {
     struct DummyNode
     {
-        int value;
+        int line,column,value;
     };
+public:
+
     static void testBST();
 };
 

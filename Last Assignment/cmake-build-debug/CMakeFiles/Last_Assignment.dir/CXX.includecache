@@ -7,22 +7,8 @@
 #IncludeRegexTransform: 
 
 E:/College/First Year/Second Semester/Data Structures and Algorithms/Last Assignment/BinarySearchTree.h
-
-E:/College/First Year/Second Semester/Data Structures and Algorithms/Last Assignment/ExtendedTest.cpp
-assert.h
--
-Matrix.h
-E:/College/First Year/Second Semester/Data Structures and Algorithms/Last Assignment/Matrix.h
-ExtendedTest.h
-E:/College/First Year/Second Semester/Data Structures and Algorithms/Last Assignment/ExtendedTest.h
 iostream
 -
-exception
--
-
-E:/College/First Year/Second Semester/Data Structures and Algorithms/Last Assignment/ExtendedTest.h
-ExtendedTest.h
-E:/College/First Year/Second Semester/Data Structures and Algorithms/Last Assignment/ExtendedTest.h
 
 E:/College/First Year/Second Semester/Data Structures and Algorithms/Last Assignment/Matrix.cpp
 Matrix.h
@@ -31,10 +17,4 @@ E:/College/First Year/Second Semester/Data Structures and Algorithms/Last Assign
 E:/College/First Year/Second Semester/Data Structures and Algorithms/Last Assignment/Matrix.h
 BinarySearchTree.h
 E:/College/First Year/Second Semester/Data Structures and Algorithms/Last Assignment/BinarySearchTree.h
-
-E:/College/First Year/Second Semester/Data Structures and Algorithms/Last Assignment/ShortTest.cpp
-assert.h
--
-Matrix.h
-E:/College/First Year/Second Semester/Data Structures and Algorithms/Last Assignment/Matrix.h
 

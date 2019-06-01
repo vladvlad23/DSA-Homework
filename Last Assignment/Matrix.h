@@ -16,9 +16,9 @@ class Matrix {
     };
 
 private:
+    int lines,columns;
 
     BinarySearchTree<MatrixNode> tree;
-
 
 public:
 

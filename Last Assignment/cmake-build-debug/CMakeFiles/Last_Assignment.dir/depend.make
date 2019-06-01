@@ -21,5 +21,9 @@ CMakeFiles/Last_Assignment.dir/TestBST.cpp.obj: ../BinarySearchTree.h
 CMakeFiles/Last_Assignment.dir/TestBST.cpp.obj: ../TestBST.cpp
 CMakeFiles/Last_Assignment.dir/TestBST.cpp.obj: ../TestBST.h
 
+CMakeFiles/Last_Assignment.dir/main.cpp.obj: ../BinarySearchTree.h
+CMakeFiles/Last_Assignment.dir/main.cpp.obj: ../ExtendedTest.h
+CMakeFiles/Last_Assignment.dir/main.cpp.obj: ../ShortTest.h
+CMakeFiles/Last_Assignment.dir/main.cpp.obj: ../TestBST.h
 CMakeFiles/Last_Assignment.dir/main.cpp.obj: ../main.cpp
 

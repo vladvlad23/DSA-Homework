@@ -1,7 +1,7 @@
 //
 // Created by Vlad on 29-May-19.
 //
-
+/*
 #include <iostream>
 #include "BinarySearchTree.h"
 
@@ -149,3 +149,4 @@ bool BinarySearchTree<TElem>::isEmpty()
 {
     return empty;
 }
+*/

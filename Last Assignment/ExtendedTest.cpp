@@ -75,7 +75,12 @@ void testExceptions() {
 
 void testAllExtended() {
 	testCreate();
+	std::cout<<"Test create works\n";
 	testModify();
+	std::cout<<"test modify works\n";
 	testQuantity();
+	std::cout<<"test quantity works\n";
 	testExceptions();
+	std::cout<<"Test exceptions works\n";
+	std::cout<<"All tests work!\n";
 }
